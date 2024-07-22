@@ -1,0 +1,80 @@
+html, body {
+	direction:ltr;
+}
+
+.glyphicon {
+	font-family:'Glyphicons Halflings' !important;
+}
+
+#nav-top {
+	float:right;
+}
+
+#nav-top li {
+	float:right;
+}
+
+#banner {
+	height:100px;
+	background-color:#6C6;
+}
+
+#logo {
+	width:120px;
+	height:80px;
+	margin-top:10px;
+	margin-right:20px;
+	background-color:#EEE;
+	border-radius:10px;
+	float:right;
+}
+
+#slogan {
+	float:right;
+	color:#FFF;
+	font-size:34px;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+#nav {
+	background-color:#399;
+}
+
+#page {
+	margin-top:-20px;
+}
+
+#rsb, #lsb {
+	min-height:300px;
+	background-color:#6CC;
+}
+
+#rsb a {
+	display:block;
+	width:100%;
+	margin-bottom:5px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#rsb a span {
+	margin-left:6px;
+}
+
+#rsb a:first-child {
+	margin-top:10px;
+}
+
+#content {
+	min-height:487px;
+	background-color:#EEE;
+}
+
+#footer {
+	height:50px;
+	background-color:#696;
+	text-align:center;
+	padding-top:10px;
+	color:#FFF;
+}
