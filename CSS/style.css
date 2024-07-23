@@ -26,11 +26,11 @@ html, body {
 	margin-right:20px;
 	background-color:#EEE;
 	border-radius:10px;
-	float:right;
+	float:left;
 }
 
 #slogan {
-	float:right;
+	float:left;
 	color:#FFF;
 	font-size:34px;
 	margin-right:20px;
@@ -70,6 +70,7 @@ html, body {
 	min-height:487px;
 	background-color:#EEE;
 }
+
 
 #footer {
 	height:50px;
