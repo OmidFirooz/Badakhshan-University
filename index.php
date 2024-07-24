@@ -5,19 +5,31 @@ require 'main.inc.php';
 
 
 ?>
-<div id="page">	
-	
-	<div id="lsb" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="container">	
+	<div class="container custom-form-container">
+		<div style="display:flex;">
+		<a href="faculty.php">
+			<div class="container custom-div-container">
+				<h3 class="text-center">Faculty</h3>
+			</div>
+			</a>
+				<div class="container custom-div-container">
+				<a href="department.php"><h3 class="text-center">Department</h3></a>
+			</div>
+		</div>
+		<div style="display:flex;">
+			<a href="student.php">
+			<div class="container custom-div-container">
+				<h3 class="text-center">Student</h3>
+			</div>
+			</a>
+			<a href="teacher.php">
+			<div class="container custom-div-container">
+				<h3 class="text-center">Teacher</h3>
+			</div>
+			</a>
+		</div>	
 	</div>
-
-	<div id="content" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-	
-	</div>
-
-	<div id="rsb" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-	
-	</div>
-
 </div>
 
 <div class="clearfix"></div>

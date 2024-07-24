@@ -89,17 +89,17 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
                 <label for="faculty" class="custom-form-label">Last Name</label>
                 <input class="form-control" type="text" name="lastName" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Date of Birth</label>
-                <input class="form-control" type="text" name="dOfBirth" class="form-control custom-input" required>
+                <input class="form-control" type="date" name="dOfBirth" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Gender</label>
                 <input class="form-control" type="text" name="gender" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Enrollment Date</label>
-                <input class="form-control" type="text" name="enrDate" class="form-control custom-input" required>
+                <input class="form-control" type="date" name="enrDate" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Email</label>
                 <input class="form-control" type="email" name="email" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Phone Number</label>
-                <input class="form-control" type="text" name="phoneNo" class="form-control custom-input" required>
+                <input class="form-control" type="number" name="phoneNo" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Photo</label>
-                <input class="form-control" type="text" name="photo" class="form-control custom-input" required>
+                <input class="form-control" type="file" name="photo" class="form-control custom-input" required>
                 <label for="faculty" class="custom-form-label">Department</label>
                 <input class="form-control" type="text" name="department" class="form-control custom-input" required>
             </div>
