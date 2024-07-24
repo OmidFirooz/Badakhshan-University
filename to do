@@ -1,0 +1,26 @@
+<?php 
+    $query_read = 'SELECT * FROM faculty';
+
+    $result = mysqli_query($conn,$query_read);
+    if(mysqli_num_rows($result)>0){
+        while($row = mysqli_fetch_assoc($result)){
+        echo $row['fac_id'].'<br>';
+        }
+    }
+?>
+
+<table class="table table-success table-striped">
+    <th>
+        <td>No.</td>
+        <td>Faculty</td>
+    </th>
+    <tr>
+        <td></td>
+        
+        <td></td>
+    </tr>   
+</table>
+
+
+
+I want to add the record in td tags but I don't know how to do it easier. Would you tell me which ways is possible and which one is the best way?

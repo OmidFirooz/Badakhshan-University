@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta charset="utf-8">
-    <meta http-equiv="refresh" content="100">
+    <!-- <meta http-equiv="refresh" content="1"> -->
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -18,9 +18,8 @@
 
 	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
-	<link rel="stylesheet" type="text/css" href="css/tooplate-little-fashion.css">
 	
 	<title>Welcome | Badakhshan University</title>
 	
